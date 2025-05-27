@@ -1,0 +1,85 @@
+body {
+    background-color: #ffe0f0; /* rosa clarinho mais suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a3f4a; /* tom roxo escuro suave para texto */
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+h1 {
+    color: #7b2ff7; /* rosa/violeta mais vibrante */
+    font-weight: 800;
+    text-shadow: 1px 1px 2px rgba(123, 47, 247, 0.3);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(123, 47, 247, 0.15);
+    border: 1.5px solid #d99de0;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #7b2ff7;
+    box-shadow: 0 0 8px rgba(123, 47, 247, 0.5);
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #7b2ff7;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1.8rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #5a23b9;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(123, 47, 247, 0.1);
+    background: #fff0fb;
+}
+
+.card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 12px 25px rgba(123, 47, 247, 0.25);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #d99de0;
+}
+
+.btn-success {
+    background-color: #f25a7a;
+    border: none;
+    border-radius: 25px;
+    margin-top: 12px;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(242, 90, 122, 0.3);
+}
+
+.btn-success:hover {
+    background-color: #c84160;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #a678a7;
+    font-size: 0.9rem;
+    font-style: italic;
+}
